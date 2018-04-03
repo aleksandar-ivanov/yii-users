@@ -7,7 +7,7 @@
             "email": "aleksandar.ivanov@mentormate.com"
         }
     ],
-    "type" : "aivanov-module-users",
+    "type" : "aivanov-module",
     "require": {
 	    "aleksandar-ivanov/yii-module-installer": "dev-master"
     }
