@@ -7,5 +7,7 @@
             "email": "aleksandar.ivanov@mentormate.com"
         }
     ],
-    "require": {}
+    "require": {
+	"composer/installers": "~1.0"
+    }
 }
