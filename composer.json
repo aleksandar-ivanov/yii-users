@@ -1,0 +1,11 @@
+{
+    "name": "aleksandar-ivanov/users",
+    "description": "Users module",
+    "authors": [
+        {
+            "name": "Aleksandar Ivanov",
+            "email": "aleksandar.ivanov@mentormate.com"
+        }
+    ],
+    "require": {}
+}
