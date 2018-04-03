@@ -8,6 +8,6 @@
         }
     ],
     "require": {
-	"composer/installers": "~1.0"
+	    "aleksandar-ivanov/yii-module-installer": "*"
     }
 }
