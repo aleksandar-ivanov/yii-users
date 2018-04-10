@@ -5,7 +5,7 @@ namespace app\modules\users;
 /**
  * users module definition class
  */
-class UserManagement extends \yii\base\Module
+class UsersManagement extends \yii\base\Module
 {
     /**
      * @inheritdoc
