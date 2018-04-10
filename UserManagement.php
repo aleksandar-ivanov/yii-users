@@ -12,6 +12,8 @@ class UserManagement extends \yii\base\Module
      */
     public $controllerNamespace = 'app\modules\users\controllers';
 
+    public $layout = 'users_layout';
+
     /**
      * @inheritdoc
      */
@@ -19,6 +21,13 @@ class UserManagement extends \yii\base\Module
     {
         parent::init();
 
-        // custom initialization code goes here
+        $this->setAliases([
+            '@USER-assets' => __DIR__ . '/assets'
+        ]);
+    }
+
+    public function getIcon()
+    {
+        return 'users';
     }
 }
