@@ -26,6 +26,11 @@ class UsersManagement extends \yii\base\Module
         ]);
     }
 
+    public function canBeManaged()
+    {
+        return !\Yii::$app->user->isGuest && \Yii::$app->user->can('manageUser');
+    }
+
     public function getIcon()
     {
         return 'users';
