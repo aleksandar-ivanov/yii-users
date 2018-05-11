@@ -8,6 +8,9 @@
         }
     ],
     "type" : "aivanov-module",
+    "extra" : {
+        "entry" : "app\\modules\\users\\UsersManagement"
+    },
     "require": {
 	    "aleksandar-ivanov/yii-module-installer": "dev-master"
     }
