@@ -65,4 +65,9 @@ class User extends ActiveRecord implements \yii\web\IdentityInterface
         return $this->getAuthKey() === $authKey;
     }
 
+    public function getFullname()
+    {
+        return $this->first_name . " " . $this->last_name;
+    }
+
 }
